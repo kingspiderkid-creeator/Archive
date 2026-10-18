@@ -1,0 +1,29 @@
+# Instagram data exports: NEVER commit these
+*.zip
+instagram-*/
+**/your_instagram_activity/
+**/personal_information/
+**/messages/
+**/connections/
+**/followers_and_following/
+**/media/
+**/content/
+**/comments/
+**/likes/
+
+# Exported data files
+*.json
+!package.json
+*.jpg
+*.jpeg
+*.png
+*.heic
+*.mp4
+*.mov
+*.m4a
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
